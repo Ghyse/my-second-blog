@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Django Girls blog</title>
+
+        <link rel="stylesheet" href="{% static 'CSS/blog.css' %}">
+    </head>
+    <body>
+        <div>
+            <h1>Django Girls Blog</h1>
+		</div>
+		{% block content %}
+		{% endblock %}
+    </body>
+</html>
